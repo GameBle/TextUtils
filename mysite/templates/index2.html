@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is working</title>
+</head>
+<body>
+    <h1>welcome to the text analyser. enter your text below</h1>
+    <form action="/analyse" method = 'get'>
+        <textarea name = 'text' style = "width: 1340px; height: 103px;"></textarea><br>
+        <input type="checkbox" name="rempunc">Remove punctuations<br>
+        <input type="checkbox" name="fullcaps">UPPERCASE<br>
+        <input type="checkbox" name="newlineremover">New Line Remover<br>
+        <input type="checkbox" name="spaceremover">space Remover<br>
+        <button type="submit">Analyse Text</button>
+    </form>
+</body>
+</html>
